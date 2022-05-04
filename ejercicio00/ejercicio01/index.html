@@ -11,11 +11,44 @@
 
 
     <script>
-
 // tipos de variables
- let nomnre = 'Juan Perez';
+// cadena o string
+ let nombre = 'Juan Perez 1234567 %^$#*&';
+console.log('ejemplo de cadenas '  + nombre);
+
+// numeros enteros, 
+let monedas = 5;
+// numeros reales es cuando hablamos con punto decimal
+let fracciones = 53.88;
+console.log(' numero entero '  + monedas + ' numeros reales ' + fracciones)
+
+// variables boolean
+let decisiones = true
+console.log ('tu decision fue ' + decisiones);
+
+// variable date
+let hoy = new Date();
+console.log(hoy);
+
+// declaro un objeto llamado variable disco //
+// Contenedor de funciones y variables 
+//Un objeto esta conformado con distintos tipos de variables, tenemos una variable llamada disco
+// con una variable nombre, variable pista de tipo numerico, genero de tipo stream,
+// ano de tipo date, precio de tipo  numero real //
 
 
-    </script>
+let discos = {
+    nombre: 'Queen',
+    pista: 10,
+    genero: 'Rock',
+    ano: new Date ('1985-02-2000'), 
+    precio: 99.99
+}
+
+console.log(' Mi disco es ' + discos.nombre);
+  
+
+
+</script>
 </body>
 </html>
