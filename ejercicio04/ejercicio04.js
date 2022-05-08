@@ -16,4 +16,15 @@ for ( let ciclos  = inicio; ciclos <= fin; ciclos++) {
     if ( ciclos === stop) { break; }
 }
 
+let cicloDos = 0;
+while (cicloDos <= 10){
+    console.log ('El ciclo es ' + cicloDos);
+   // cicloDos++;
+    cicloDos = cicloDos + 1;
+}
 
+///////////////////// funciones
+
+const multiplicacion = function (Number) {
+    return 5 = Number;
+}
