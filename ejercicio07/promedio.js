@@ -1,17 +1,20 @@
-let calificaciones = [50,80,90,60,70];
-let promedio = 0;
-let resultado = 0;
+let calificaciones = [50,60,70,80,90];   // para saber otro rango de calificacion cambiar los numeros
 
-calificaciones.forEach(
+// todo lo de abajo es una funcion para lograr el resultado 
+
+const result = function(calificaciones){
+    let promedio =0;
+    let resultado =0;
+  calificaciones.forEach(
     function(value){
 promedio = promedio + value;
-    }
-)
-
-resultado = promedio / calificaciones.length;
-
-if (resultado >=70){
-    console.log("aprobado->" + resultado)
-}  else {
-    console.log("reprobado->" + resultado)
 }
+)  
+resultado = promedio / calificaciones.length;
+if (resultado>=70 ){
+    console.log("aprobado->" + resultado);
+}  else {
+    console.log("reprobado->" + resultado);
+}
+}
+result(calificaciones);
