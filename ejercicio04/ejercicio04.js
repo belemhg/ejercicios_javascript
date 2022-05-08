@@ -25,6 +25,23 @@ while (cicloDos <= 10){
 
 ///////////////////// funciones
 
-const multiplicacion = function (Number) {
-    return 5 = Number;
+const multiplicacion = function (tabla, Number) {
+    return tabla * Number;
+}
+
+console.log('invocacion de funciones ' ) ;
+console.log( multiplicacion(45, 9) );
+
+//let tabla = 5;
+//for (let ciclos = inicio; ciclos <= fin; ciclos++){
+ //console.log(multiplicacion(tabla,ciclos));}
+
+ 
+
+let inicioTabla =20;
+let finalTabla = 30;
+
+let tabla = 5;
+for (let ciclos = inicioTabla; ciclos <= finalTabla; ciclos++){
+    console.log(tabla+"*"+ciclos+"*"+multiplicacion(tabla,ciclos));
 }
