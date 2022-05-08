@@ -45,3 +45,10 @@ let tabla = 5;
 for (let ciclos = inicioTabla; ciclos <= finalTabla; ciclos++){
     console.log(tabla+"*"+ciclos+"*"+multiplicacion(tabla,ciclos));
 }
+
+const multiplicacion = function(tabla, Number) {
+    return tabla * Number;
+}
+
+
+
