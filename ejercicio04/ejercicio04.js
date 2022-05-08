@@ -46,7 +46,6 @@ for (let ciclos = inicioTabla; ciclos <= finalTabla; ciclos++){
     console.log(tabla+"*"+ciclos+"*"+multiplicacion(tabla,ciclos));
 }
 
-
 //Ejemplo
 // calculo del area de un cuadrado e imprimirla en una sola linea, sin usar ciclos
 // funcion que imprima el lado de un cuadrado
