@@ -46,9 +46,16 @@ for (let ciclos = inicioTabla; ciclos <= finalTabla; ciclos++){
     console.log(tabla+"*"+ciclos+"*"+multiplicacion(tabla,ciclos));
 }
 
-const multiplicacion = function(tabla, Number) {
-    return tabla * Number;
+
+//Ejemplo
+// calculo del area de un cuadrado e imprimirla en una sola linea, sin usar ciclos
+// funcion que imprima el lado de un cuadrado
+// variable constante (const)
+
+let lado = 5;
+const areaCuadrado = function (lado) {
+    return lado * lado;
+    
 }
-
-
+console.log ('el area del cuadrado es ' + areaCuadrado (lado));
 
