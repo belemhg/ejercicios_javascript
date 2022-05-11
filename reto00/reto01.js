@@ -1,5 +1,5 @@
 
-let conjunto=['uno, 2, null, 0'];
+let conjunto=['uno', 2, null, 0];
 
 conjunto.forEach (
   function (conjunto, index, arreglo){
