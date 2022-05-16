@@ -24,3 +24,13 @@ const cambiarNombre = (positionDisc, nuevoNombreDisco) => {
 
 cambiarNombre(posicionArreglo, nuevoNombreDisco);
 console.log(tiendaDiscos);
+
+
+//////  OTRA MANERA DE HACERLO 
+
+let tiendaDeDiscos = [discoRock, discobalada, discoIndie]
+let reemplazar = (arreglo, posicion, nuevoNombreDisco) => {
+    arreglo[posicion].nameDisc = nuevoNombreDisco;
+}
+reemplazar(tiendaDeDiscos, 1, 'test');
+console.log (tiendaDeDiscos)
